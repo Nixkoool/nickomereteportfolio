@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Nicko Jomarie Merete</title>
+
+
+  <link rel="stylesheet" href="style.css" />       
+
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════ -->
+  <nav id="navbar">
+    <a href="#intro" class="nav-logo">Port<span>.</span></a>
+    <div class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#intro"   class="active">Intro</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════════════════════════════
+       SECTION 1 — INTRO / HERO
+  ═══════════════════════════════════ -->
+  <section id="intro">
+    <div class="container">
+      <div class="hero-inner">
+
+        <!-- Text column -->
+        <div class="hero-text">
+          <span class="label"><span class="pulse-dot"></span>Available for work</span>
+          <h1 class="glitch" data-text="Nicko Merete"><br><span class="name-red">Nicko  Merete</span></h1>
+          <p class="hero-tagline cursor-blink">Web Developer &amp; Graphic Designer</p>
+          <p class="hero-desc">
+              I am a newly graduate Web Developer passionate about
+              creating clean, responsive, and user-friendly websites.
+             I enjoy turning ideas into functional digital experiences 
+             and continuously learning to improve my skills in both design and development. 
+             Let’s build something great together.
+</p>
+          </p>
+          <div class="hero-cta">
+            <a href="#work" class="btn btn-primary">
+              View My Work
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-outline">Hire Me</a>
+          </div>
+        </div>
+
+        <!-- Visual column -->
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <div class="hero-avatar">&#9670;</div>
+            <div class="hero-badge">OPEN TO WORK</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="scroll-cue">SCROLL</div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       SECTION 2 — WORK
+  ═══════════════════════════════════ -->
+  <section id="work">
+    <div class="container">
+
+      <div class="section-header fade-up">
+        <span class="label">// 02 — selected projects</span>
+        <h2>My Work</h2>
+      </div>
+
+      <!-- Filter buttons -->
+      <div class="work-filters fade-up delay-1">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">App</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+
+      <!-- Project cards -->
+      <div class="work-grid">
+
+        <div class="work-card fade-up delay-1" data-category="web">
+          <div class="work-card-img">
+            <span class="placeholder">01</span>
+            <a href="https://nixkoool.github.io/mabaya/" target="_blank" rel="noopener noreferrer" class="overlay">
+              <span class="overlay-text">VIEW PROJECT</spa>
+            </a>
+          </div>
+          <div class="work-card-body">
+          <h3>Mabaya Game</h3>
+          <p>An interactive browser-based game built with HTML, CSS, and JavaScript, featuring engaging gameplay and a responsive user interface.</p>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       SECTION 3 — ABOUT
+  ═══════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+
+      <div class="about-inner">
+
+        <!-- Photo column -->
+        <div class="about-photo fade-left">
+          <div class="about-photo-frame">
+            <div class="photo-inner">&#9670;</div>
+          </div>
+        </div>
+
+        <!-- Text + skills column -->
+        <div class="about-text fade-right">
+          <span class="label">// 03 — who I am</span>
+          <h2>About Me</h2>
+          <div class="divider"></div>
+           <p>
+    As a newly graduated Web Developer, I am passionate about creating modern,
+    responsive, and user-friendly websites. I enjoy combining creativity and
+    technical skills to build digital experiences that are both visually
+    appealing and functional.
+  </p>
+
+  <p>
+    Through academic projects and internship experience, I have developed a
+    strong foundation in HTML, CSS, JavaScript, and web design. I am eager to
+    start my professional career, continue learning new technologies, and
+    contribute to meaningful projects that make a positive impact.
+  </p>
+
+          <!-- Stats -->
+<div class="stats-row">
+  <div class="stat">
+    <span class="stat-num">2026</span>
+    <span class="stat-label">Graduate</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">10+</span>
+    <span class="stat-label">Projects</span>
+  </div>
+  <div class="stat">
+    <span class="stat-num">PHP</span>
+    <span class="stat-label">MySQL</span>
+  </div>
+</div>
+
+          <!-- Skills -->
+         <div class="skill-item">
+  <div class="skill-meta">
+    <span class="skill-name">HTML / CSS</span>
+    <span class="skill-pct">90%</span>
+  </div>
+  <div class="skill-track">
+    <div class="skill-fill" style="--pct: 90%;"></div>
+  </div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-meta">
+    <span class="skill-name">JavaScript</span>
+    <span class="skill-pct">85%</span>
+  </div>
+  <div class="skill-track">
+    <div class="skill-fill" style="--pct: 85%;"></div>
+  </div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-meta">
+    <span class="skill-name">PHP</span>
+    <span class="skill-pct">80%</span>
+  </div>
+  <div class="skill-track">
+    <div class="skill-fill" style="--pct: 80%;"></div>
+  </div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-meta">
+    <span class="skill-name">MySQL</span>
+    <span class="skill-pct">75%</span>
+  </div>
+  <div class="skill-track">
+    <div class="skill-fill" style="--pct: 75%;"></div>
+  </div>
+</div>
+
+<div class="skill-item">
+  <div class="skill-meta">
+    <span class="skill-name">Graphic Design</span>
+    <span class="skill-pct">80%</span>
+  </div>
+  <div class="skill-track">
+    <div class="skill-fill" style="--pct: 80%;"></div>
+  </div>
+</div>
+
+          <div style="margin-top: 36px;">
+            <a href="#contact" class="btn btn-primary">
+              Let's Talk
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       SECTION 4 — CONTACT
+  ═══════════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+
+      <div class="contact-inner">
+
+        <!-- Info column -->
+        <div class="contact-info fade-left">
+          <span class="label">// 04 — get in touch</span>
+          <h2>Contact</h2>
+          <div class="divider"></div>
+          <p>Have a project in mind or just want to chat? Drop me a message and I'll get back to you within 24 hours.</p>
+
+          <div class="contact-detail-list">
+            <div class="contact-detail">
+              <div class="detail-icon">📧</div>
+              <div class="detail-content">
+                <span class="label">Email</span>
+                <span>nixkomerete@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="detail-icon">📍</div>
+              <div class="detail-content">
+                <span class="label">Location</span>
+                <span>Tayug, Pangasinan</span>
+              </div>
+            </div>
+            <div class="contact-detail">
+              <div class="detail-icon">💼</div>
+              <div class="detail-content">
+                <span class="label">Availability</span>
+                <span>Open to freelance &amp; full-time</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social links -->
+          <div class="social-links">
+            <a href="https://github.com/Nixkoool" class="social-link" aria-label="GitHub">GH</a>
+            <a href="https://www.facebook.com/nixko.00" class="social-link" aria-label="Facebook">FB</a>
+          </div>
+        </div>
+
+        <!-- Form column -->
+        <form class="contact-form fade-right" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="fname" placeholder="Juan" required />
+            </div>
+            <div class="form-group">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lname" placeholder="Dela Cruz" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="juandelacruz@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project inquiry…" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/>
+            </svg>
+          </button>
+          <div class="form-status" id="formStatus">
+            ✓ Message sent! I'll reply within 24 hours.
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════ -->
+  <footer>
+    <div class="container">
+      <p>Designed &amp; built by <span>Nicko Jomarie Merete</span> &mdash; &copy; <span id="year"></span></p>
+    </div>
+  </footer>
+
+  <!-- ═══════════════════════════════════
+       JAVASCRIPT
+  ═══════════════════════════════════ -->
+  <script>
+    // --- Year ---
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // --- Navbar: scroll state & active link ---
+    const navbar = document.getElementById('navbar');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    const sections = document.querySelectorAll('section[id]');
+
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+
+      // Highlight active nav link
+      let current = '';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 120) current = sec.id;
+      });
+      navLinks.forEach(a => {
+        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+      });
+    });
+
+    // --- Hamburger menu ---
+    const hamburger = document.getElementById('hamburger');
+    const mobileNav  = document.getElementById('navLinks');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      mobileNav.classList.toggle('open');
+    });
+
+    mobileNav.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        hamburger.classList.remove('open');
+        mobileNav.classList.remove('open');
+      });
+    });
+
+    // --- Intersection Observer: fade-in animations ---
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+
+          // Animate skill bars when About section comes into view
+          if (e.target.classList.contains('fade-right') && e.target.closest('#about')) {
+            document.querySelectorAll('.skill-fill').forEach(bar => bar.classList.add('animate'));
+          }
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up, .fade-left, .fade-right').forEach(el => observer.observe(el));
+
+    // --- Work filters ---
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const workCards  = document.querySelectorAll('.work-card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        const filter = btn.dataset.filter;
+        workCards.forEach(card => {
+          const show = filter === 'all' || card.dataset.category === filter;
+          card.style.opacity    = show ? '1' : '0.2';
+          card.style.transform  = show ? '' : 'scale(0.97)';
+          card.style.pointerEvents = show ? '' : 'none';
+        });
+      });
+    });
+
+    // --- Contact form ---
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const status = document.getElementById('formStatus');
+      status.classList.add('success');
+      this.reset();
+      setTimeout(() => status.classList.remove('success'), 5000);
+    });
+  </script>
+
+</body>
+</html>
