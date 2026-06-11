@@ -795,7 +795,7 @@ footer span { color: var(--red); }
     height: 100%;
     object-fit: cover;
     display: block;
-    border: 2px solid rgb(93, 31, 3); /* temporary test */
+    border: 2px solid rgb(93, 31, 3); 
 }
 
 .about-photo-frame::before {
