@@ -678,12 +678,10 @@ footer span { color: var(--red); }
 }
 
 
-.hero-avatar {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 20px;
-    display: block;
+.hero-avatar{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 /* Floating badge */
@@ -782,14 +780,7 @@ footer span { color: var(--red); }
   position: relative;
 }
 
-.about-photo-frame {
-  width: 100%;
-  padding-top: 120%;
-  background: var(--black-card);
-  border: 1px solid var(--black-border);
-  position: relative;
-  overflow: hidden;
-}
+
 .about-photo-img {
     width: 100%;
     height: 100%;
